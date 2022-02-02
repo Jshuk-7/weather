@@ -140,7 +140,6 @@ const updateUi = data => {
   ];
 
   let icon = weather.WeatherIcon;
-  console.log(icon);
   let iconEl = document.createElement('i');
   iconEl.classList.add(fas, array[icon]);
 
