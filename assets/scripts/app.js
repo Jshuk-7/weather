@@ -24,7 +24,6 @@ weatherCondition.classList.add('weather-condition');
 weatherCondition.textContent = 'Weather Condition';
 temperature.classList.add('temperature');
 temperature.textContent = 'Temp °F';
-
 cityInputForm.append(cityInputLabel, cityInputField);
 weatherInformationDiv.append(cityName, weatherCondition, temperature);
 container.append(cityInputForm);
